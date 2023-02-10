@@ -124,4 +124,8 @@ footer nav a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: gray;
+}
+
+#remove-from-cart {
+  background-color: red;
 }/*# sourceMappingURL=styles.css.map */

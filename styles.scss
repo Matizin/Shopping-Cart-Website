@@ -84,6 +84,7 @@ body{
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  
 }
 
 footer {
@@ -125,6 +126,10 @@ footer nav a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: gray; 
+}
+
+#remove-from-cart{
+  background-color: red;
 }
 
 
