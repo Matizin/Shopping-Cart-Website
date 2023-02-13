@@ -30,17 +30,6 @@ let data = [];
   const addToCartBtn = document.querySelector('#add-to-cart');
   const shoppingCart = document.getElementsByClassName("shopping-cart")
 
-//  shoppingCart = [];
-
-// addToCartBtn.addEventListener('click', () => {
-//   const product = {
-//     name: productDiv.querySelector('h3').textContent,
-//     price: productDiv.querySelector('p').textContent,
-//   };
-  
-//   shoppingCart.push(product);
-//   console.log(shoppingCart);
-// })
 
 function deleteItem(index) {
   shoppingCart.splice(index, 1);
@@ -70,24 +59,13 @@ function displayShoppingCart(arr){
       </div>
     `;
   })
-
-
-  
 }
 
-function removeFromCart(params) {
-  console.log(params);
-  let item = cart.filter(item => item.id != params);
-  console.log(item);
-  cart = item;
-  displayShoppingCart(cart)
+// function removeFromCart(params) {
+//   console.log(params);
+//   let item = cart.filter(item => item.id != params);
+//   console.log(item);
+//   cart = item;
+//   displayShoppingCart(cart)
 
-
-
-  // if (item.length !== 0) {
-  //   shoppingCart.splice()
-
-  //   return
-
-  // }
-}
+// }
